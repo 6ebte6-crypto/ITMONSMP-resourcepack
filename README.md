@@ -4,6 +4,10 @@ Public resource-pack assets for the ITMONSMP server.
 
 ## Current contents
 
-- `AllTheFishV18.19-texture-fix.zip` — the `barely_default` fish namespace required by the server's custom fish items.
+- `pack.zip` — merged Nexo pack with the original server assets and the `barely_default` fish namespace.
 
-The Nexo-generated `pack.zip` must be rebuilt with these assets included before using the raw GitHub URL as the server's pack source. Do not use the old unavailable GitHub repository.
+Raw download URL for Nexo/clients:
+
+`https://raw.githubusercontent.com/6ebte6-crypto/ITMONSMP-resourcepack/master/pack.zip`
+
+The old unavailable GitHub source must not be used. Edit the source pack, rebuild `pack.zip`, and keep the archive root flat (`pack.mcmeta`, `pack.png`, `assets/`).
